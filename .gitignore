@@ -1,0 +1,18 @@
+# Regras gerais (agencia/ e front/ têm .gitignore próprios para Maven e Node)
+node_modules/
+target/
+build/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
+.vscode/
+
+# Sistema operacional e logs
+.DS_Store
+Thumbs.db
+*.log
