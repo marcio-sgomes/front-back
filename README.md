@@ -36,7 +36,7 @@ Pré-requisitos: JDK 17, MySQL e Node.js.
 2. Suba a API informando as credenciais por variáveis de ambiente:
    ```bash
    cd agencia
-   export DB_USERNAME=root DB_PASSWORD=sua_senha
+   cp .env.example .env   # e preencha DB_PASSWORD no .env
    ./mvnw spring-boot:run
    ```
 3. Em outro terminal:
